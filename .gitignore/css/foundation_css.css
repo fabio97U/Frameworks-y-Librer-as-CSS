@@ -1,0 +1,43 @@
+cite[class="text-left"]{/*Historial*/
+  color: darkblue;
+  font-size: 15px;
+  text-align:  left;
+}
+
+cite[class="text-center"]{/*Fechas de creacion*/
+  color: darkblue;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: left;
+}
+label[class="lead text-white"]{
+  color: gray;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: left;
+}
+div[class="columns small-12 medium-10 large-10"]{/*Comentario*/
+  color: black;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: left;
+}
+
+body{
+  background-image: url("../imagenes/fondo2.jpeg");
+  background-repeat: repeat-y;
+  background-position: top;
+}
+
+@media (max-width: 900px) { /*Media para desktop*/
+  body{
+    background-image: url("../imagenes/fondo.jpg");
+  }
+
+  div[class="columns small-9 medium-8 large-8 show-for-small"]{
+    width: 100%;
+  }
+}

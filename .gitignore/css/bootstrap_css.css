@@ -1,0 +1,15 @@
+.img{
+  width: 75%;
+}
+
+div[class="col-lg-4 col-md-4 col-sm-5 col-xs-6"]{
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (max-width: 900px) {
+
+  .img{
+    width: 45%;
+  }
+}
